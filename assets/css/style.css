@@ -35421,3 +35421,8 @@ div#order-listing_filter {
   text-align: center;
 
 }
+
+
+.inner-box-card::-webkit-scrollbar {
+    display: none !important;  /* Safari and Chrome */
+}
