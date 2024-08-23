@@ -35425,4 +35425,11 @@ div#order-listing_filter {
 
 .inner-box-card::-webkit-scrollbar {
     display: none !important;  /* Safari and Chrome */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+}
+.inner-box-card{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+
 }
